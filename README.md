@@ -1,10 +1,10 @@
-from secrets import about_me
-
 class myInfo():
-  def __init__(self, name: str, age: int, working: bool, langs: list) -> None:
-     self.name = name
-     self.age = age
-     self.working = working
-     self.langs = langs
-
-myInfo("Daniel", 17, True, ["Brazilian Portuguese", "English"])
+    def __init__(self, name: str, age: int, langs: list) -> None:
+        self.name  = name        
+        self.age   = age
+        self.langs = langs
+    
+    def show_me(self):
+        print(self.name, self.age, self.langs)
+    
+myInfo('Bruce', 42, ['Brazilian Portuguese', 'Poor English']).show_me()
