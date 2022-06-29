@@ -1,3 +1,5 @@
+from info import about_me
+
 class myInfo():
     def __init__(self, name: str, age: int, langs: list) -> None:
         self.name  = name        
