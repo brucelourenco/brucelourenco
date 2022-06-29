@@ -9,4 +9,4 @@ class myInfo():
         print(self.name, self.age, self.langs)
     
 myInfo('Bruce', 42, ['Brazilian Portuguese', 'Poor English']).show_me()
-'''py
+'''
