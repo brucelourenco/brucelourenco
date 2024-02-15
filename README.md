@@ -1,12 +1,12 @@
 ```py
 class myInfo():
-    def __init__(self, name: str, age: int, langs: list) -> None:
+    def __init__(self, name: str, age: int, hobby: list) -> None:
         self.name  = name        
         self.age   = age
-        self.langs = langs
+        self.hobby = hobby
     
     def show_me(self):
-        print(self.name, self.age, self.langs)
+        print(self.name, self.age, self.hobby)
     
-myInfo('Bruce', 43, ['Brazilian Portuguese', 'B2 English']).show_me()
+myInfo('Bruce', 43, ['Brazilian Portuguese', 'Gaming']).show_me()
 ```
