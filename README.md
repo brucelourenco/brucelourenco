@@ -8,5 +8,5 @@ class myInfo():
     def show_me(self):
         print(self.name, self.age, self.hobby)
     
-myInfo('Bruce', 43, ['Brazilian Portuguese', 'Play video game']).show_me()
+myInfo('Bruce', 43, ['Reading', 'Play video game']).show_me()
 ```
